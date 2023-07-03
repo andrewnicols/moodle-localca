@@ -1,2 +1,4 @@
 ca
 certs
+openssl.cnf
+local.conf

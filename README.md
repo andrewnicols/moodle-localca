@@ -25,3 +25,17 @@ Name of `webserver.container.docker.internal` you can run the following command:
 ```
 
 Note: Each argument is used as a subject alternative name for the certificate.
+
+## Local Configuration
+
+You may wish to store all of your certiifcates and their keys in another
+location.
+
+You can do so by creating a `local.conf` file with an `SSLDIR` variable set.
+
+For example:
+```
+SSLDIR=/etc/ssl
+```
+
+Note: This file is sourced by the script.
